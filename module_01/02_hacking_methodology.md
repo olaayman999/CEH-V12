@@ -58,6 +58,20 @@ Some of the reasons why attackers might use DNS tunneling include:
 
 DNS tunneling can be a serious threat to organizations, and it is important to implement security measures to detect and prevent this type of attack. Some common measures include monitoring DNS traffic for unusual patterns or anomalies, implementing firewalls that block unauthorized DNS traffic, and deploying intrusion detection systems that can detect DNS tunneling attempts.
 
+Here's an example of how DNS tunneling might be used:
+
+An attacker gains access to a network, either through a vulnerability in a system or by tricking an employee into downloading malware.
+
+The attacker sets up a DNS tunneling client on the compromised system and configures it to use a specific domain name to encode the data that they want to exfiltrate.
+
+1. The attacker begins to encode sensitive data within DNS queries and responses, sending the encoded data to a DNS server that is under the attacker's control.
+
+2. The DNS server decodes the data from the DNS queries and responses and stores it for the attacker to retrieve later.
+
+3. The attacker continues to encode and exfiltrate sensitive data using DNS queries and responses, avoiding detection by security personnel who are monitoring the network for unusual activity.
+
+4. Eventually, the attacker retrieves the encoded data from the DNS server and uses it for malicious purposes, such as selling it on the black market or using it to compromise other systems.
+
 ## Indicators of Compromise (IoC)
 Indicator of compromise (IoC)
 
