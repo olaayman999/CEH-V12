@@ -6,6 +6,9 @@
 
 [Definition](../definitions/definitions_D.md#defense-in-depth)
 
+![image](https://user-images.githubusercontent.com/72671239/216794827-4543c0f3-ef03-4cae-8c25-4ddef8c25faa.png)
+
+
 ## Risk
 Information security risk
 
